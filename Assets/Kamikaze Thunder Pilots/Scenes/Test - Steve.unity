@@ -517,8 +517,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotateRight: 0
   startNextRotation: 1
-  rotateAngle: 90
-  secondsToRotate: 2
+  rotateAngle: 180
+  secondsToRotate: 5
   secondsToWait: 1
 --- !u!1001 &1066631044
 PrefabInstance:
@@ -575,36 +575,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player - test
       objectReference: {fileID: 0}
-    - target: {fileID: 7084995040233686905, guid: ecd57b199e0aeb54ab5b7cb1bc82384c, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecd57b199e0aeb54ab5b7cb1bc82384c, type: 3}
---- !u!1 &1686881308 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5884090684614891671, guid: ecd57b199e0aeb54ab5b7cb1bc82384c, type: 3}
-  m_PrefabInstance: {fileID: 1066631044}
-  m_PrefabAsset: {fileID: 0}
---- !u!50 &1686881311
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1686881308}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
