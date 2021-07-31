@@ -517,8 +517,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotateRight: 0
   startNextRotation: 1
-  rotateAngle: 180
-  secondsToRotate: 5
+  rotateAngle: 270
+  secondsToRotate: 3
   secondsToWait: 1
 --- !u!1001 &1066631044
 PrefabInstance:
@@ -574,6 +574,10 @@ PrefabInstance:
     - target: {fileID: 5884090684614891671, guid: ecd57b199e0aeb54ab5b7cb1bc82384c, type: 3}
       propertyPath: m_Name
       value: Player - test
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884090684658565403, guid: ecd57b199e0aeb54ab5b7cb1bc82384c, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecd57b199e0aeb54ab5b7cb1bc82384c, type: 3}
