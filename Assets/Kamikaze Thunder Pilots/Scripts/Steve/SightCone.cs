@@ -24,11 +24,12 @@ public class SightCone : MonoBehaviour
     {
         if(isInSight)
         {
-            if(Time.time >= timer + 2)
+            if(Time.time >= timer + 0.5f)
             {
                 spriteRenderer.color = Color.red;
-                if(Time.time >= timer + 3)
+                if(Time.time >= timer + 1)
                 {
+                    Time.timeScale = 0;
                     Debug.Log("Caught");
                 }
             }

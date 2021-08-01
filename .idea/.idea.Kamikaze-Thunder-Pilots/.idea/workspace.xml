@@ -18,6 +18,7 @@
       <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CharacterController.cs" />
       <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CharacterRotate.cs" />
       <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CharacterMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Steve/Menu.cs" />
       <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Steve/WatcherRotation.cs" />
       <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Steve/SightCone.cs" />
     </changedPaths>
@@ -67,6 +68,7 @@
       <updated>1627439836560</updated>
       <workItem from="1627439864266" duration="3348000" />
       <workItem from="1627695779490" duration="4676000" />
+      <workItem from="1627785856343" duration="686000" />
     </task>
     <servers />
   </component>

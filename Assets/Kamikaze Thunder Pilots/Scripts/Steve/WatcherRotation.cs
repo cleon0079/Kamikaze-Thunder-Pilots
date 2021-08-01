@@ -28,6 +28,7 @@ public class WatcherRotation : MonoBehaviour
             StartCoroutine(Rotate(-rotateAngle,secondsToRotate));
 
         }
+        
     }
 
     IEnumerator Rotate(float _rotateAngle, float _duration)
