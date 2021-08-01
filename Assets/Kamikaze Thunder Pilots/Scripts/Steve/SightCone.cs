@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class SightCone : MonoBehaviour
 {
-    private EdgeCollider2D sightCollider;
     private SpriteRenderer spriteRenderer;
     private Color originalColor;
     private bool isInSight = false;
@@ -14,7 +13,6 @@ public class SightCone : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        sightCollider = GetComponent<EdgeCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         originalColor = spriteRenderer.color;
     }

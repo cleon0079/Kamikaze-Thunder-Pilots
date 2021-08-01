@@ -5,12 +5,20 @@ using UnityEngine;
 
 public class WatcherRotation : MonoBehaviour
 {
+    [Header("Rotation Variables")]
     [SerializeField] private bool rotateRight;
     [SerializeField] private bool startNextRotation = true;
     [SerializeField] private float rotateAngle;
     [SerializeField] private float secondsToRotate;
-
     [SerializeField] private float secondsToWait = 1f;
+
+    [Header("Movement Variables")] 
+    [SerializeField] private Transform parent;
+    [SerializeField] private Transform startPos;
+    [SerializeField] private Transform endPos;
+    [SerializeField] private float moveSpeed = 1f;
+    [SerializeField] private bool move = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,11 +34,10 @@ public class WatcherRotation : MonoBehaviour
         else if(startNextRotation && !rotateRight)
         {
             StartCoroutine(Rotate(-rotateAngle,secondsToRotate));
-
         }
-        
     }
 
+    
     IEnumerator Rotate(float _rotateAngle, float _duration)
     {
         startNextRotation = false;
