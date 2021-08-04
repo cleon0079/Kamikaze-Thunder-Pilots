@@ -83,3 +83,67 @@ Received Import Request.
 Start importing Assets/Kamikaze Thunder Pilots/Art using Guid(e77985d1c50275245872b4762e05eb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa75ecc31f96bd05822b825120f88b9c') in 0.008315 seconds
   Import took 0.010535 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000946 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.678 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.2 MB.
+System memory in use after: 84.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2247.
+Total: 1.608200 ms (FindLiveObjects: 0.157600 ms CreateObjectMapping: 0.057000 ms MarkObjects: 1.381300 ms  DeleteObjects: 0.011000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1267.542583 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Scenes/Main Menu - Steve.unity
+  artifactKey: Guid(260e0bcf2266e43429238c7d5c952ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Scenes/Main Menu - Steve.unity using Guid(260e0bcf2266e43429238c7d5c952ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65ea343aee403c3acc0320e1ece8661') in 0.015722 seconds
+  Import took 0.018551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.093339 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Scenes/Test - Steve.unity
+  artifactKey: Guid(08848b8a6db9df34baa42e839ec51bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Scenes/Test - Steve.unity using Guid(08848b8a6db9df34baa42e839ec51bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000aa9d2b99c896e9ad614959f76d07a') in 0.007123 seconds
+  Import took 0.009739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000707 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Scenes/Test - Steve.unity
+  artifactKey: Guid(08848b8a6db9df34baa42e839ec51bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Scenes/Test - Steve.unity using Guid(08848b8a6db9df34baa42e839ec51bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000aa9d2b99c896e9ad614959f76d07a') in 0.001935 seconds
+  Import took 0.004413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1220.560751 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Art
+  artifactKey: Guid(e77985d1c50275245872b4762e05eb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Art using Guid(e77985d1c50275245872b4762e05eb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b01167f3b754b1c3bef7933504917e') in 0.001981 seconds
+  Import took 0.005036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.541293 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Art/Example
+  artifactKey: Guid(65d81891f4c1e2e43a0e346e6df33637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Art/Example using Guid(65d81891f4c1e2e43a0e346e6df33637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2716c07d85f2260c44a62ad3eeae6854') in 0.005383 seconds
+  Import took 0.007708 seconds .
+
