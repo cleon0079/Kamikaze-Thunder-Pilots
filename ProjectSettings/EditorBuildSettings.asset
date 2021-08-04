@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Kamikaze Thunder Pilots/Scenes/Main Menu - Steve.unity
+    guid: 260e0bcf2266e43429238c7d5c952ae5
+  - enabled: 1
+    path: Assets/Kamikaze Thunder Pilots/Scenes/Test - Steve.unity
+    guid: 08848b8a6db9df34baa42e839ec51bef
+  - enabled: 1
     path: Assets/Kamikaze Thunder Pilots/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
