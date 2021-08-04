@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c20f6b8-3c10-403d-974e-4438d102fc28" name="Default Changelist" comment="" />
+    <list default="true" id="9c20f6b8-3c10-403d-974e-4438d102fc28" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Kamikaze-Thunder-Pilots/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Kamikaze-Thunder-Pilots/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CharacterMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +17,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CharacterController.cs" />
       <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CharacterRotate.cs" />
+      <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/camera.cs" />
+      <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CameraFollow.cs" />
       <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CharacterMovement.cs" />
     </changedPaths>
   </component>
@@ -60,7 +74,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627439836560</updated>
-      <workItem from="1627439864266" duration="3348000" />
+      <workItem from="1627439864266" duration="4474000" />
+      <workItem from="1628042595955" duration="11917000" />
     </task>
     <servers />
   </component>
@@ -69,6 +84,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
