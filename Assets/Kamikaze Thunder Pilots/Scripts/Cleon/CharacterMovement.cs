@@ -1,35 +1,44 @@
 using UnityEngine;
+using System.Collections;
 
 namespace Game.Cleon
 {
+    [RequireComponent(typeof(Rigidbody2D))]
     public class CharacterMovement : MonoBehaviour
     {
         private GameManager gameManager;
+        private Rigidbody2D rb;
 
         private void Start()
         {
             gameManager = FindObjectOfType<GameManager>();
+            rb = GetComponent<Rigidbody2D>();
+            rb.gravityScale = 0;
+            rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+            rb.sleepMode = RigidbodySleepMode2D.NeverSleep;
+            rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
         }
         
         // Update is called once per frame
         private void Update()
         {
             Move();
-            Look();
             BulletTime();
+            if(gameManager.canMouseRotate)
+            {
+                Look();
+            }
         }
 
         private void BulletTime()
         {
             if(gameManager.canBulletTime)
             {
-                if(Input.GetKeyDown(KeyCode.Space))
+                if(Input.GetKeyDown(KeyCode.Space) && !gameManager.isBulletTime)
                 {
+                    gameManager.isBulletTime = true;
                     Time.timeScale = gameManager.bulletTimeModify;
-                }
-                if(Input.GetKeyUp(KeyCode.Space))
-                {
-                    Time.timeScale = 1f;
+                    StartCoroutine(BulletTimeCoolDown());
                 }
             }
         }
@@ -54,6 +63,14 @@ namespace Game.Cleon
                 angle = -angle;
             }
             transform.eulerAngles = new Vector3(0, 0, angle);
+        }
+        
+        private IEnumerator BulletTimeCoolDown()
+        {
+            yield return new WaitForSecondsRealtime(gameManager.bulletTimeLength);
+            Time.timeScale = 1;
+            yield return new WaitForSecondsRealtime(gameManager.coolDown);
+            gameManager.isBulletTime = false;
         }
     }
 }

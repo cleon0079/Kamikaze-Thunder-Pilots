@@ -13,12 +13,12 @@ namespace Game.Cleon
             player = FindObjectOfType<CharacterMovement>().gameObject;
         }
 
-        void Update()
+        private void Update()
         {
             Follow();
         }
 
-        void Follow()
+        private void Follow()
         {
             Vector3 mousePoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             float dis = Vector3.Distance(mousePoint, player.transform.position);
