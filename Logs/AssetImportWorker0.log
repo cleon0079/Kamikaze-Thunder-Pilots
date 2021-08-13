@@ -217,3 +217,110 @@ System memory in use after: 101.0 MB.
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3130.
 Total: 1.888100 ms (FindLiveObjects: 0.288200 ms CreateObjectMapping: 0.143700 ms MarkObjects: 1.445000 ms  DeleteObjects: 0.010400 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001166 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 40.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.760 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2867 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.6 MB.
+System memory in use after: 125.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3398.
+Total: 2.372300 ms (FindLiveObjects: 0.322000 ms CreateObjectMapping: 0.162100 ms MarkObjects: 1.862900 ms  DeleteObjects: 0.024100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 244.739387 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Scenes/Test - Steve.unity
+  artifactKey: Guid(08848b8a6db9df34baa42e839ec51bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Scenes/Test - Steve.unity using Guid(08848b8a6db9df34baa42e839ec51bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1027797d0b1400714420432416d96f1b') in 0.011365 seconds
+  Import took 0.015679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 237.410325 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Steven Material/Shader/SightCone Material.mat
+  artifactKey: Guid(4d3da8148b8b0c748a65e1f66e33a776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Steven Material/Shader/SightCone Material.mat using Guid(4d3da8148b8b0c748a65e1f66e33a776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a66f759996781817cf86fa9b5feed2') in 0.191534 seconds
+  Import took 0.196082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002036 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Steven Material/Shader/SightCone Material.mat
+  artifactKey: Guid(4d3da8148b8b0c748a65e1f66e33a776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Steven Material/Shader/SightCone Material.mat using Guid(4d3da8148b8b0c748a65e1f66e33a776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a66f759996781817cf86fa9b5feed2') in 0.015052 seconds
+  Import took 0.019148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.191633 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Steven Material/Shader/Disolve Material.mat
+  artifactKey: Guid(8610a2c1e56ee8f40b9707ebf3e1d54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Steven Material/Shader/Disolve Material.mat using Guid(8610a2c1e56ee8f40b9707ebf3e1d54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ff3c47ea860fafcf7d89e6d65e883b') in 0.014195 seconds
+  Import took 0.028741 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001653 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.793 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2818 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.8 MB.
+System memory in use after: 130.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3479.
+Total: 2.206200 ms (FindLiveObjects: 0.249700 ms CreateObjectMapping: 0.125400 ms MarkObjects: 1.816900 ms  DeleteObjects: 0.013500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001263 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.736 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2818 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.8 MB.
+System memory in use after: 130.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3482.
+Total: 2.364300 ms (FindLiveObjects: 0.313000 ms CreateObjectMapping: 0.142200 ms MarkObjects: 1.894200 ms  DeleteObjects: 0.014200 ms)
+
