@@ -27,7 +27,7 @@ public class SightCone : MonoBehaviour
                 spriteRenderer.color = Color.red;
                 if(Time.time >= timer + 1)
                 {
-                    Time.timeScale = 0;
+                    
                     Debug.Log("Caught");
                 }
             }
