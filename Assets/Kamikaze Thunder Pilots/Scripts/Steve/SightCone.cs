@@ -25,9 +25,10 @@ public class SightCone : MonoBehaviour
             if(Time.time >= timer + 0.5f)
             {
                 spriteRenderer.color = Color.red;
-                if(Time.time >= timer + 1)
+                if(Time.time >= timer + 0.5f)
                 {
-                    
+                    // Gameover message
+                    // Reload level
                     Debug.Log("Caught");
                 }
             }

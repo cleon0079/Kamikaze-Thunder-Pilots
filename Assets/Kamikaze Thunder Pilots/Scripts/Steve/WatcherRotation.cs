@@ -20,12 +20,7 @@ public class WatcherRotation : MonoBehaviour
     [SerializeField] private float moveSpeed = 1f;
     [SerializeField] private bool move = false;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+    
     private void Update()
     {
         if(startNextRotation && rotateRight)
@@ -37,9 +32,14 @@ public class WatcherRotation : MonoBehaviour
             StartCoroutine(Rotate(-rotateAngle,secondsToRotate));
         }
 
-        if(rotate360)
+        if(rotate360 && rotateRight)
         {
             StartCoroutine(Rotate360(rotateAngle, secondsToRotate));
+        }
+        else if(rotate360 && !rotateRight)
+        {
+            StartCoroutine(Rotate360(-rotateAngle, secondsToRotate));
+
         }
     }
 
