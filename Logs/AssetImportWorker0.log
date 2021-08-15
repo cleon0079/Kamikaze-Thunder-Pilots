@@ -300,3 +300,118 @@ System memory in use after: 124.7 MB.
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3405.
 Total: 1.997200 ms (FindLiveObjects: 0.257800 ms CreateObjectMapping: 0.118000 ms MarkObjects: 1.607400 ms  DeleteObjects: 0.013200 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 3163.853694 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Steven Material/Shader/Disovle Shader Graph.shadergraph
+  artifactKey: Guid(8fc037ed5dd94a44898fd9e897d8e37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Steven Material/Shader/Disovle Shader Graph.shadergraph using Guid(8fc037ed5dd94a44898fd9e897d8e37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5749cbfc735989cd65bf2cffdeafb838') in 0.017962 seconds
+  Import took 0.022948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.710194 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Steven Material/Shader/Disovle Shader Graph.shadergraph
+  artifactKey: Guid(8fc037ed5dd94a44898fd9e897d8e37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Steven Material/Shader/Disovle Shader Graph.shadergraph using Guid(8fc037ed5dd94a44898fd9e897d8e37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46de7391cdc1537deb3cc72edde551a4') in 0.001853 seconds
+  Import took 0.005999 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002139 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.743 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2818 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.5 MB.
+System memory in use after: 124.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3408.
+Total: 1.963200 ms (FindLiveObjects: 0.254300 ms CreateObjectMapping: 0.131800 ms MarkObjects: 1.563700 ms  DeleteObjects: 0.012300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4140.377109 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Steven Material/Shader/Fire.shadergraph
+  artifactKey: Guid(4b59e3de2ff80394692f640e537786fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Steven Material/Shader/Fire.shadergraph using Guid(4b59e3de2ff80394692f640e537786fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7bac8fe530023e3808767e901d810d') in 0.027003 seconds
+  Import took 0.032480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.352620 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Steven Material/Shader/Fire 1.shadergraph
+  artifactKey: Guid(bc89c0328a3f77349be5c35fa95c268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Steven Material/Shader/Fire 1.shadergraph using Guid(bc89c0328a3f77349be5c35fa95c268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86732f4bbb43158009d6b4631813d24') in 0.006119 seconds
+  Import took 0.011110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.466338 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Steven Material/Shader/Fire_Blue.shadergraph
+  artifactKey: Guid(bc89c0328a3f77349be5c35fa95c268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Steven Material/Shader/Fire_Blue.shadergraph using Guid(bc89c0328a3f77349be5c35fa95c268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af3adc27f26da22070d96b25d9906dc') in 0.007404 seconds
+  Import took 0.012450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011663 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Steven Material/Shader/Fire_Blue.shadergraph
+  artifactKey: Guid(bc89c0328a3f77349be5c35fa95c268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Steven Material/Shader/Fire_Blue.shadergraph using Guid(bc89c0328a3f77349be5c35fa95c268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af3adc27f26da22070d96b25d9906dc') in 0.002341 seconds
+  Import took 0.007729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 179.770797 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Steven Material/Shader/Fire_Blue.shadergraph
+  artifactKey: Guid(bc89c0328a3f77349be5c35fa95c268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Steven Material/Shader/Fire_Blue.shadergraph using Guid(bc89c0328a3f77349be5c35fa95c268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d278aeb21b348698f47a3dcd26b4879') in 0.003076 seconds
+  Import took 0.008247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015162 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Steven Material/Shader/Fire_Blue.shadergraph
+  artifactKey: Guid(bc89c0328a3f77349be5c35fa95c268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Steven Material/Shader/Fire_Blue.shadergraph using Guid(bc89c0328a3f77349be5c35fa95c268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d278aeb21b348698f47a3dcd26b4879') in 0.002414 seconds
+  Import took 0.007593 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001509 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.878 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2818 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.2 MB.
+System memory in use after: 124.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3411.
+Total: 2.473000 ms (FindLiveObjects: 0.377400 ms CreateObjectMapping: 0.205800 ms MarkObjects: 1.872400 ms  DeleteObjects: 0.016200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
