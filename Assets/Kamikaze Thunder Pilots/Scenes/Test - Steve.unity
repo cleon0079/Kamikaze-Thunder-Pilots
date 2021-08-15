@@ -5010,7 +5010,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 404bbcc51eb101545bb75255d31da0df, type: 2}
+  - {fileID: 2100000, guid: f9d7fca3e36cb2c43af4063157231548, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5032,7 +5032,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 3625043607559282579, guid: 0d267bc78a0864eb48358689b29ed20a, type: 3}
-  m_Color: {r: 0.13328585, g: 0.6037736, b: 0.21729043, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5355,8 +5355,8 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.507
-  m_Color: {r: 0.1476682, g: 0.6415094, b: 0.28709817, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0.14901958, g: 0.35415286, b: 0.6431373, a: 1}
+  m_Intensity: 1.12
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
