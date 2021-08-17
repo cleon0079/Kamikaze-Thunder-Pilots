@@ -13,13 +13,14 @@ public class WatcherRotation : MonoBehaviour
     [SerializeField] private float secondsToWait = 1f;
     [SerializeField] private bool rotate360 = false;
 
+    /*
     [Header("Movement Variables")] 
     [SerializeField] private Transform parent;
     [SerializeField] private Transform startPos;
     [SerializeField] private Transform endPos;
     [SerializeField] private float moveSpeed = 1f;
     [SerializeField] private bool move = false;
-
+    */
     
     private void Update()
     {
