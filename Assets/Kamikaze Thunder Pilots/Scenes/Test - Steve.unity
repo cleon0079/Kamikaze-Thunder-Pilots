@@ -9998,7 +9998,7 @@ Camera:
   far clip plane: 1000
   field of view: 26.991467
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.1361027
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -10022,11 +10022,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 668905162}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.23999977, y: 0.36000013, z: -4.7}
+  m_LocalPosition: {x: 27.02, y: -4.0699997, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1857651822}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &668905166
 MonoBehaviour:
@@ -10067,9 +10067,9 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 668905162}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0e56ea2c281b42409ebc29063aa7cc9, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c1a779d323ec274290bdf1fdf8b982b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &670355443
@@ -17762,19 +17762,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1188998566}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b912d3c51faf494dbef7a50911464cd, type: 3}
+  m_Script: {fileID: 11500000, guid: 60bf0328855254b45a8ef5160a84929d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  canMoveHori: 1
+  canMoveHori: 0
   canMouseRotate: 0
-  canBulletTime: 1
+  canBulletTime: 0
   canOpenDoor: 0
   bulletTimeModify: 0.5
   coolDown: 5
   bulletTimeLength: 1.5
   isBulletTime: 0
-  cameraDis: 1.53
+  cameraDis: 3
   bulletTimeIcon: {fileID: 0}
   bulletTimeDescription: 
   keyIcon: {fileID: 0}
@@ -26144,9 +26144,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1857651822}
   - component: {fileID: 1857651821}
-  - component: {fileID: 1857651820}
   - component: {fileID: 1857651823}
   - component: {fileID: 1857651824}
+  - component: {fileID: 1857651820}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -26163,7 +26163,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1857651819}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28465db21e49564ea3ec6903965ba5c, type: 3}
+  m_Script: {fileID: 11500000, guid: 95d1314b5bdee4b4abf7c113f187bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!50 &1857651821
@@ -26195,10 +26195,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857651819}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.38, y: -4.61, z: 1}
+  m_LocalPosition: {x: 27.38, y: -4.61, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
-  m_Children:
-  - {fileID: 668905165}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
