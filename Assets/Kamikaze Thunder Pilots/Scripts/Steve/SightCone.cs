@@ -18,25 +18,29 @@ namespace Game.Steveo
         // Start is called before the first frame update
         void Start()
         {
+            
             spriteRenderer = GetComponent<SpriteRenderer>();
-            originalColor = spriteRenderer.color;
+            originalColor = spriteRenderer.material.color;
+           
         }
 
         // Update is called once per frame
         void Update()
         {
-            if(isInSight)
+            if(isInSight && Time.time >= timer + 0.25f)
             {
-                if(Time.time >= timer + 0.5f)
+                spriteRenderer.material.color = Color.red;
+                    
+                if(Time.time >= timer + 0.3f)
                 {
-                    spriteRenderer.color = Color.red;
-                    if(Time.time >= timer + 0.5f)
-                    {
-                        // Gameover message
-                        // Reload level
-                        Debug.Log("Caught");
-                    }
+                    //todo maybe an event?? then subscribe with the game manager
+                    // Play caught sfx
+                    // Gameover message
+                    // Reload level
+                    
+                    Debug.Log("Caught");
                 }
+                
             }
         }
     
@@ -45,7 +49,8 @@ namespace Game.Steveo
             Debug.Log("trigger");
             if(_collider.gameObject.tag == "Player")
             {
-                spriteRenderer.color = Color.yellow;
+                
+                spriteRenderer.material.color = Color.yellow;
                 isInSight = true;
                 timer = Time.time;
             }
@@ -57,7 +62,8 @@ namespace Game.Steveo
             Debug.Log("triggerExit");
             if(_collider.gameObject.tag == "Player")
             {
-                spriteRenderer.color = originalColor;
+                spriteRenderer.material.color = originalColor;
+                //spriteRenderer.color = originalColor;
                 isInSight = false;
             }
         }
