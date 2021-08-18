@@ -37,3 +37,7 @@ sysinfo.txt
 *.unitypackage
 *.log
 *.log
+*.log
+Logs/AssetImportWorker0.log
+Packages/packages-lock.json
+ProjectSettings/QualitySettings.asset
