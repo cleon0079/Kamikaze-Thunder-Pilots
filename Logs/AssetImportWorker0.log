@@ -184,3 +184,77 @@ System memory in use after: 128.1 MB.
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3409.
 Total: 2.077800 ms (FindLiveObjects: 0.311000 ms CreateObjectMapping: 0.147500 ms MarkObjects: 1.604400 ms  DeleteObjects: 0.014200 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001299 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.766 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.1 MB.
+System memory in use after: 128.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3412.
+Total: 4.672900 ms (FindLiveObjects: 0.656600 ms CreateObjectMapping: 0.422800 ms MarkObjects: 3.572300 ms  DeleteObjects: 0.018900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3296.720423 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Art/HN_Art/Door Sprite_OPEN.png
+  artifactKey: Guid(26c604026851fcf4dbb11b59c10b7d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Art/HN_Art/Door Sprite_OPEN.png using Guid(26c604026851fcf4dbb11b59c10b7d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855cccf57c4ee9f0b14c7d346e0d1084') in 0.057480 seconds
+  Import took 0.064055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.644348 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Art/HN_Art/Door Sprite_Closed.png
+  artifactKey: Guid(e6792bf6e991eac488f81ac204ea2a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Art/HN_Art/Door Sprite_Closed.png using Guid(e6792bf6e991eac488f81ac204ea2a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9052fea750414d815c773fef92109ece') in 0.011712 seconds
+  Import took 0.015880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001746 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Art/HN_Art/Door Sprite_Closed.png
+  artifactKey: Guid(e6792bf6e991eac488f81ac204ea2a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Art/HN_Art/Door Sprite_Closed.png using Guid(e6792bf6e991eac488f81ac204ea2a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9052fea750414d815c773fef92109ece') in 0.007731 seconds
+  Import took 0.012432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 225.645949 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Art/HN_Art/JimmyBOnestt2.png
+  artifactKey: Guid(eacf53ac9d41d2442b5496f7ffb39a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Art/HN_Art/JimmyBOnestt2.png using Guid(eacf53ac9d41d2442b5496f7ffb39a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290fd32bd9190f36c64d6d2997fb5092') in 0.016400 seconds
+  Import took 0.020724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.595752 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Scenes/Main Menu - Steve.unity
+  artifactKey: Guid(260e0bcf2266e43429238c7d5c952ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Scenes/Main Menu - Steve.unity using Guid(260e0bcf2266e43429238c7d5c952ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370a17f0f76a046ffd8e03393381f4d5') in 0.006412 seconds
+  Import took 0.011077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 279.245880 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Art/HN_Art/KTP.png
+  artifactKey: Guid(6a1ee1422cabed74baaaf07b95415f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Art/HN_Art/KTP.png using Guid(6a1ee1422cabed74baaaf07b95415f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0814d8a3aa6107ee011a4df1f6ccaa') in 0.227899 seconds
+  Import took 0.232853 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
