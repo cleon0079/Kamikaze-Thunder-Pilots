@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Enterprise G; OS build 16299.1481; Version 1709; 64bit' Language: 'zh' Physical Memory: 16296 MB
+OS: 'Windows 10 Home; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16168 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,631 +11,176 @@ C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/PROGRAM FILES (X86)/helloworld/Kamikaze-Thunder-Pilots
+C:/Users/steve/Documents/GitHub/Kamikaze-Thunder-Pilots
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58331
-Successfully changed project path to: D:/PROGRAM FILES (X86)/helloworld/Kamikaze-Thunder-Pilots
-D:/PROGRAM FILES (X86)/helloworld/Kamikaze-Thunder-Pilots
+49727
+Successfully changed project path to: C:/Users/steve/Documents/GitHub/Kamikaze-Thunder-Pilots
+C:/Users/steve/Documents/GitHub/Kamikaze-Thunder-Pilots
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 80.00 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 42.92 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/PROGRAM FILES (X86)/helloworld/Kamikaze-Thunder-Pilots/Assets
+[Subsystems] Discovering subsystems at path C:/Users/steve/Documents/GitHub/Kamikaze-Thunder-Pilots/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) HD Graphics 530 (ID=0x191b)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f55)
     Vendor:   
-    VRAM:     8148 MB
-    Driver:   26.20.100.7212
+    VRAM:     5980 MB
+    Driver:   27.21.14.6230
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013772 seconds.
+Registered in 0.001654 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 64.36 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 46.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.373 seconds
+- Completed reload, in  1.510 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002154 seconds.
+Registered in 0.001115 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.51 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 47.61 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.886 seconds
+- Completed reload, in  0.848 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2935 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.5 MB.
-System memory in use after: 130.6 MB.
+Unloading 2938 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.2 MB.
+System memory in use after: 130.4 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3374.
-Total: 3.347259 ms (FindLiveObjects: 0.631694 ms CreateObjectMapping: 0.306596 ms MarkObjects: 2.220178 ms  DeleteObjects: 0.187658 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3392.
+Total: 2.678400 ms (FindLiveObjects: 0.235800 ms CreateObjectMapping: 0.127100 ms MarkObjects: 2.213900 ms  DeleteObjects: 0.100900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Kamikaze Thunder Pilots/Scenes/Test - Steve.unity
-  artifactKey: Guid(08848b8a6db9df34baa42e839ec51bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scenes/Test - Steve.unity using Guid(08848b8a6db9df34baa42e839ec51bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3580698b86d3b89cdbe4c4f72ca5c160') in 0.016996 seconds
-  Import took 0.022308 seconds .
+  path: Assets/Kamikaze Thunder Pilots/Art/Nat Art/Torch.gif
+  artifactKey: Guid(2f747cfb947a5ff4ab46aabc62fd368f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Art/Nat Art/Torch.gif using Guid(2f747cfb947a5ff4ab46aabc62fd368f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb5462bb00c9b4e05cbec17afb6f3e6') in 0.097141 seconds
+  Import took 0.101667 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scenes/Main Menu - Steve.unity
-  artifactKey: Guid(260e0bcf2266e43429238c7d5c952ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scenes/Main Menu - Steve.unity using Guid(260e0bcf2266e43429238c7d5c952ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24308bc5669c06c2807ed3c26e6e054') in 0.006023 seconds
-  Import took 0.012470 seconds .
+  Time since last request: 922.578968 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Art/Nat Art/barrel.png
+  artifactKey: Guid(70f34700ce60f674ab9e92cd954fb588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Art/Nat Art/barrel.png using Guid(70f34700ce60f674ab9e92cd954fb588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec437a06d5e9dabc47dfd50b31bcb7c6') in 0.029017 seconds
+  Import took 0.033896 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000561 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scenes/Test - Steve
-  artifactKey: Guid(64bba85e3034fb54bb1199a3596b8c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scenes/Test - Steve using Guid(64bba85e3034fb54bb1199a3596b8c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff902711c2db9cad77633626bdf9e35') in 0.007688 seconds
-  Import took 0.015937 seconds .
+  Time since last request: 1.564262 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Art/Nat Art/Bone_pile.png
+  artifactKey: Guid(6a08ac2dac76fc041bbd6fcc0cbfc07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Art/Nat Art/Bone_pile.png using Guid(6a08ac2dac76fc041bbd6fcc0cbfc07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ffdc49fae562deb18cd3764be45c55') in 0.024146 seconds
+  Import took 0.028071 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000478 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6a18925f08e90aa6ea41748370d568') in 0.006493 seconds
-  Import took 0.014307 seconds .
+  Time since last request: 50.283390 seconds.
+  path: Assets/Kamikaze Thunder Pilots/Art/Nat Art/Torch.png
+  artifactKey: Guid(fefa14f0623b8fb44a34d6a60eaeda0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kamikaze Thunder Pilots/Art/Nat Art/Torch.png using Guid(fefa14f0623b8fb44a34d6a60eaeda0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e0219d166beee0bf765bf43b34fb53') in 0.029412 seconds
+  Import took 0.033823 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002381 seconds.
+Registered in 0.001430 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.664 seconds
+- Completed reload, in  0.782 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.2 MB.
-System memory in use after: 125.3 MB.
+Unloading 2821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.0 MB.
+System memory in use after: 127.2 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3377.
-Total: 4.087318 ms (FindLiveObjects: 0.385511 ms CreateObjectMapping: 0.176708 ms MarkObjects: 3.394079 ms  DeleteObjects: 0.129888 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3403.
+Total: 2.104900 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.121100 ms MarkObjects: 1.741600 ms  DeleteObjects: 0.015200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002681 seconds.
+Registered in 0.001352 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.649 seconds
+- Completed reload, in  0.779 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.3 MB.
-System memory in use after: 125.4 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3380.
-Total: 2.933429 ms (FindLiveObjects: 0.335670 ms CreateObjectMapping: 0.189546 ms MarkObjects: 2.271907 ms  DeleteObjects: 0.135174 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002594 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.921 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.2 MB.
-System memory in use after: 126.3 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3383.
-Total: 6.134186 ms (FindLiveObjects: 0.481794 ms CreateObjectMapping: 0.240142 ms MarkObjects: 3.671601 ms  DeleteObjects: 1.738762 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005790 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.826 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.3 MB.
-System memory in use after: 126.5 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3386.
-Total: 9.410082 ms (FindLiveObjects: 0.548626 ms CreateObjectMapping: 0.256000 ms MarkObjects: 8.167084 ms  DeleteObjects: 0.436862 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002907 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.836 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.1 MB.
-System memory in use after: 126.2 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3389.
-Total: 3.260037 ms (FindLiveObjects: 0.454986 ms CreateObjectMapping: 0.248449 ms MarkObjects: 2.417653 ms  DeleteObjects: 0.137817 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002860 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.614 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.4 MB.
-System memory in use after: 126.5 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3392.
-Total: 5.388086 ms (FindLiveObjects: 0.448189 ms CreateObjectMapping: 0.214466 ms MarkObjects: 4.322929 ms  DeleteObjects: 0.400991 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007408 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.13 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.030 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.0 MB.
-System memory in use after: 126.1 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3395.
-Total: 3.688214 ms (FindLiveObjects: 0.458761 ms CreateObjectMapping: 0.274502 ms MarkObjects: 2.823931 ms  DeleteObjects: 0.129888 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004298 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.657 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.4 MB.
-System memory in use after: 126.5 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3398.
-Total: 4.588368 ms (FindLiveObjects: 0.601487 ms CreateObjectMapping: 0.226549 ms MarkObjects: 3.572675 ms  DeleteObjects: 0.186148 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 569.334700 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CameraFollow1.cs
-  artifactKey: Guid(4506ef897cca0a644aa923f517be6648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CameraFollow1.cs using Guid(4506ef897cca0a644aa923f517be6648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34fe0c13132adf98481993a665a48a1') in 0.082083 seconds
-  Import took 0.088297 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003527 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.577 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.0 MB.
-System memory in use after: 126.1 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3401.
-Total: 3.769017 ms (FindLiveObjects: 0.399103 ms CreateObjectMapping: 0.182372 ms MarkObjects: 3.012721 ms  DeleteObjects: 0.173310 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002799 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.667 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.4 MB.
-System memory in use after: 126.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3403.
-Total: 4.278752 ms (FindLiveObjects: 1.153889 ms CreateObjectMapping: 0.524838 ms MarkObjects: 2.453901 ms  DeleteObjects: 0.144991 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004243 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.716 seconds
-Platform modules already initialized, skipping
-Script is not up to date after domain reload: guid(cc9c5cd2018e7454eb5f151bf20941b9) path("Assets/Kamikaze Thunder Pilots/Scripts/Item.cs") state(2)
-Script is not up to date after domain reload: guid(60bf0328855254b45a8ef5160a84929d) path("Assets/Kamikaze Thunder Pilots/Scripts/GameManager.cs") state(2)
-Script is not up to date after domain reload: guid(9c1a779d323ec274290bdf1fdf8b982b) path("Assets/Kamikaze Thunder Pilots/Scripts/CameraFollow.cs") state(2)
-Script is not up to date after domain reload: guid(95d1314b5bdee4b4abf7c113f187bf71) path("Assets/Kamikaze Thunder Pilots/Scripts/CharacterMovement.cs") state(2)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.8 MB.
-System memory in use after: 125.9 MB.
+Unloading 2821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.0 MB.
+System memory in use after: 128.3 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3403.
-Total: 2.812226 ms (FindLiveObjects: 0.360968 ms CreateObjectMapping: 0.191434 ms MarkObjects: 2.123517 ms  DeleteObjects: 0.135174 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3406.
+Total: 2.554500 ms (FindLiveObjects: 0.481400 ms CreateObjectMapping: 0.218800 ms MarkObjects: 1.798700 ms  DeleteObjects: 0.053600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002341 seconds.
+Registered in 0.001463 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.640 seconds
+- Completed reload, in  0.848 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.3 MB.
-System memory in use after: 126.5 MB.
+Unloading 2821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.8 MB.
+System memory in use after: 128.1 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3410.
-Total: 3.406161 ms (FindLiveObjects: 0.393440 ms CreateObjectMapping: 0.176708 ms MarkObjects: 2.621547 ms  DeleteObjects: 0.212201 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3409.
+Total: 2.077800 ms (FindLiveObjects: 0.311000 ms CreateObjectMapping: 0.147500 ms MarkObjects: 1.604400 ms  DeleteObjects: 0.014200 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 40.718105 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scripts/Steve
-  artifactKey: Guid(8e19aa535707e8d4cb883daf5814b0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scripts/Steve using Guid(8e19aa535707e8d4cb883daf5814b0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac9081bbab6b1802d6cf9bb8cb52ab9') in 0.012709 seconds
-  Import took 0.018984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.238205 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scripts/Steve
-  artifactKey: Guid(8e19aa535707e8d4cb883daf5814b0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scripts/Steve using Guid(8e19aa535707e8d4cb883daf5814b0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac9081bbab6b1802d6cf9bb8cb52ab9') in 0.005840 seconds
-  Import took 0.012997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.378615 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scripts/Steve/New Folder
-  artifactKey: Guid(786e3cbb8e4081748b499dcaf4901a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scripts/Steve/New Folder using Guid(786e3cbb8e4081748b499dcaf4901a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b4a29a13e43ed620bfaccee108085b') in 0.005658 seconds
-  Import took 0.011714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.914755 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scripts/CameraFollow.cs
-  artifactKey: Guid(9c1a779d323ec274290bdf1fdf8b982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scripts/CameraFollow.cs using Guid(9c1a779d323ec274290bdf1fdf8b982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a6e29ff95c5e65a0d69442c4f58c63') in 0.005857 seconds
-  Import took 0.016068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.043948 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scripts/CameraFollow.cs
-  artifactKey: Guid(9c1a779d323ec274290bdf1fdf8b982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scripts/CameraFollow.cs using Guid(9c1a779d323ec274290bdf1fdf8b982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a6e29ff95c5e65a0d69442c4f58c63') in 0.007667 seconds
-  Import took 0.015252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.311169 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scripts/CharacterMovement.cs
-  artifactKey: Guid(95d1314b5bdee4b4abf7c113f187bf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scripts/CharacterMovement.cs using Guid(95d1314b5bdee4b4abf7c113f187bf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d02cb915bf1bdc8a2870d87b1dfdb4') in 0.041532 seconds
-  Import took 0.047663 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002343 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.832 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.4 MB.
-System memory in use after: 126.5 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3413.
-Total: 4.184734 ms (FindLiveObjects: 0.528236 ms CreateObjectMapping: 0.386266 ms MarkObjects: 3.129017 ms  DeleteObjects: 0.139328 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003629 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.591 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.3 MB.
-System memory in use after: 126.4 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3416.
-Total: 2.933807 ms (FindLiveObjects: 0.417227 ms CreateObjectMapping: 0.172932 ms MarkObjects: 2.151458 ms  DeleteObjects: 0.190301 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 131.311505 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scenes/Test - Steve.unity
-  artifactKey: Guid(08848b8a6db9df34baa42e839ec51bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scenes/Test - Steve.unity using Guid(08848b8a6db9df34baa42e839ec51bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b254fc697d588e69f59ffb28de733d67') in 0.020582 seconds
-  Import took 0.025880 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004358 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.616 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.4 MB.
-System memory in use after: 126.6 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3419.
-Total: 2.901713 ms (FindLiveObjects: 0.341711 ms CreateObjectMapping: 0.177841 ms MarkObjects: 2.247364 ms  DeleteObjects: 0.133286 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 273.572171 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scripts/Cleon/GameManager.cs
-  artifactKey: Guid(60bf0328855254b45a8ef5160a84929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scripts/Cleon/GameManager.cs using Guid(60bf0328855254b45a8ef5160a84929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e4e4d6f34b277662942364929ffc70') in 0.032760 seconds
-  Import took 0.039354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014206 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scripts/Cleon/GameManager.cs
-  artifactKey: Guid(60bf0328855254b45a8ef5160a84929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scripts/Cleon/GameManager.cs using Guid(60bf0328855254b45a8ef5160a84929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e4e4d6f34b277662942364929ffc70') in 0.008792 seconds
-  Import took 0.014705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.985657 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scripts/Cleon/Item.cs
-  artifactKey: Guid(cc9c5cd2018e7454eb5f151bf20941b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scripts/Cleon/Item.cs using Guid(cc9c5cd2018e7454eb5f151bf20941b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea44cb0b92ef0f7778445bc863c89e5b') in 0.004816 seconds
-  Import took 0.010569 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004271 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.648 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.2 MB.
-System memory in use after: 126.3 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3422.
-Total: 2.892273 ms (FindLiveObjects: 0.330384 ms CreateObjectMapping: 0.204649 ms MarkObjects: 2.181287 ms  DeleteObjects: 0.174820 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.391920 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scripts/Steve/DisolveEffect.cs
-  artifactKey: Guid(1e3e44764ec7cdd43b34110842a91fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scripts/Steve/DisolveEffect.cs using Guid(1e3e44764ec7cdd43b34110842a91fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5dc4c2bb7df69d4217a995af94c20d8') in 0.008619 seconds
-  Import took 0.016307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.716691 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scripts/Steve/Menu.cs
-  artifactKey: Guid(3569a666f10e5eb4f934628fb3ae9ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scripts/Steve/Menu.cs using Guid(3569a666f10e5eb4f934628fb3ae9ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2313b1c4092818d9fe7e3edc7fff24e7') in 0.004796 seconds
-  Import took 0.011019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004151 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scripts/Steve/Menu.cs
-  artifactKey: Guid(3569a666f10e5eb4f934628fb3ae9ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scripts/Steve/Menu.cs using Guid(3569a666f10e5eb4f934628fb3ae9ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2313b1c4092818d9fe7e3edc7fff24e7') in 0.004834 seconds
-  Import took 0.010495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.433933 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scripts/Steve/SightCone.cs
-  artifactKey: Guid(6ce575c43604d654bbc3da5907a21cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scripts/Steve/SightCone.cs using Guid(6ce575c43604d654bbc3da5907a21cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5f8ffa61b57140384dc8af9215d011') in 0.005404 seconds
-  Import took 0.011891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003429 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scripts/Steve/SightCone.cs
-  artifactKey: Guid(6ce575c43604d654bbc3da5907a21cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scripts/Steve/SightCone.cs using Guid(6ce575c43604d654bbc3da5907a21cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5f8ffa61b57140384dc8af9215d011') in 0.005159 seconds
-  Import took 0.012340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.973593 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scripts/Steve/WatcherRotation.cs
-  artifactKey: Guid(cefb6c4269fd20244a0c2a8c15533d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scripts/Steve/WatcherRotation.cs using Guid(cefb6c4269fd20244a0c2a8c15533d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2341d26086052e9b959cd63d4be19192') in 0.004564 seconds
-  Import took 0.010448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000707 seconds.
-  path: Assets/Kamikaze Thunder Pilots/Scripts/Steve/WatcherRotation.cs
-  artifactKey: Guid(cefb6c4269fd20244a0c2a8c15533d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kamikaze Thunder Pilots/Scripts/Steve/WatcherRotation.cs using Guid(cefb6c4269fd20244a0c2a8c15533d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2341d26086052e9b959cd63d4be19192') in 0.004414 seconds
-  Import took 0.011076 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
