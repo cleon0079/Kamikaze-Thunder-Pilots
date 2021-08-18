@@ -20,37 +20,58 @@ namespace Game.Cleon
 		{
 			if(_collider2D.CompareTag("Player"))
 			{
-				// ToDo Show text on the item
-				if(gameManager.canOpenDoor)
+				switch(type)
 				{
-					// ToDo Shows open door text
-				}
-				else
-				{
-					// ToDo Shows cant open door text
-				}
-
-				if(Input.GetKeyDown(KeyCode.F))
-				{
-					if(type == Type.BulletTime)
-					{
-						gameManager.canBulletTime = true;
-						// ToDo Show item description
-						// ToDo Show bullet time cool down UI
-						Destroy(gameObject);
-					}
-
-					if(type == Type.Key)
-					{
-						gameManager.canOpenDoor = true;
-						// ToDo Show item description
-						Destroy(gameObject);
-					}
-
-					if(gameManager.canOpenDoor)
-					{
-						// ToDo Play open door anim
-					}
+					case Type.BulletTime:
+						gameManager.canvasOnObject.transform.position = transform.position + new Vector3(0, .5f, 0);
+						gameManager.canvasOnObjectText.text = "Press 'F' to pick up";
+						gameManager.canvasOnObject.SetActive(true);
+						if(Input.GetKeyDown(KeyCode.F))
+						{
+							gameManager.canBulletTime = true;
+							gameManager.canvasItemDisplay.SetActive(true);
+							gameManager.bulletTimeCanvasImage.SetActive(true);
+							gameManager.canvasItemImage.sprite = gameManager.bulletTimeIcon;
+							gameManager.canvasItemName.text = gameManager.bulletTimeName;
+							gameManager.canvasItemDescription.text = gameManager.bulletTimeDescription;
+							Time.timeScale = 0;
+							Destroy(gameObject);
+						}
+						break;
+					case Type.Key:
+						gameManager.canvasOnObject.transform.position = transform.position + new Vector3(0, .5f, 0);
+						gameManager.canvasOnObjectText.text = "Press 'F' to pick up";
+						gameManager.canvasOnObject.SetActive(true);
+						if(Input.GetKeyDown(KeyCode.F))
+						{
+							gameManager.canOpenDoor = true;						
+							gameManager.canvasItemDisplay.SetActive(true);
+							gameManager.keyCanvasImage.SetActive(true);
+							gameManager.canvasItemImage.sprite = gameManager.keyIcon;
+							gameManager.canvasItemName.text = gameManager.keyName;
+							gameManager.canvasItemDescription.text = gameManager.keyDescription;
+							Time.timeScale = 0;
+							Destroy(gameObject);
+						}
+						break;
+					case Type.Door:
+						gameManager.canvasOnObject.transform.position = transform.position + new Vector3(0, .5f, 0);
+						gameManager.canvasOnObject.SetActive(true);
+						if(gameManager.canOpenDoor)
+						{
+							gameManager.canvasOnObjectText.text = "Press 'F' to open door";
+							if(Input.GetKeyDown(KeyCode.F))
+							{
+								// ToDo Play open door anim and open the door
+							}
+						}
+						else
+						{
+							gameManager.canvasOnObjectText.text = "Find the key to open door!";
+						}
+						break;
+					default:
+						break;
 				}
 			}
 		}

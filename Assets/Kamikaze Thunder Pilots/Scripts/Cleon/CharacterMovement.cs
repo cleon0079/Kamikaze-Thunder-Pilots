@@ -37,6 +37,8 @@ namespace Game.Cleon
                 if(Input.GetKeyDown(KeyCode.Space) && !gameManager.isBulletTime)
                 {
                     gameManager.isBulletTime = true;
+                    gameManager.bulletTimeCDImage.fillAmount = 1;
+                    gameManager.currentCDTime = 0;
                     Time.timeScale = gameManager.bulletTimeModify;
                     StartCoroutine(BulletTimeCoolDown());
                 }
