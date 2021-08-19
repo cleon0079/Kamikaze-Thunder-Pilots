@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c20f6b8-3c10-403d-974e-4438d102fc28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Kamikaze-Thunder-Pilots/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Kamikaze-Thunder-Pilots/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scenes/Test - Steve.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scenes/Test - Steve.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CameraFollow.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CameraFollow.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CharacterMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CharacterMovement.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/GameManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/GameManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/Item.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/Item.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="9c20f6b8-3c10-403d-974e-4438d102fc28" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Steve/SightCone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Steve/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -89,6 +76,7 @@
       <workItem from="1628828915924" duration="2973000" />
       <workItem from="1629169708856" duration="6811000" />
       <workItem from="1629194376832" duration="1307000" />
+      <workItem from="1629336508912" duration="4312000" />
     </task>
     <servers />
   </component>
@@ -108,6 +96,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

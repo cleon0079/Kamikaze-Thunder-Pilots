@@ -14,14 +14,18 @@ namespace Game.Steveo
         private Color originalColor;
         private bool isInSight = false;
         private float timer;
+        public bool isCaught = false;
+        
+        public delegate void GotCaught();
+        public static event GotCaught Caught;
     
         // Start is called before the first frame update
         void Start()
         {
-            
             spriteRenderer = GetComponent<SpriteRenderer>();
             originalColor = spriteRenderer.material.color;
-           
+            isCaught = false;
+
         }
 
         // Update is called once per frame
@@ -33,16 +37,26 @@ namespace Game.Steveo
                     
                 if(Time.time >= timer + 0.3f)
                 {
+                    if(!isCaught && Caught != null)
+                    {
+                        isCaught = true;
+                        Caught();
+                        Debug.Log("Caught");
+
+                    }
                     //todo maybe an event?? then subscribe with the game manager
                     // Play caught sfx
                     // Gameover message
                     // Reload level
                     
-                    Debug.Log("Caught");
+                    
                 }
                 
             }
         }
+
+        
+        
     
         private void OnTriggerEnter2D(Collider2D _collider)
         {
