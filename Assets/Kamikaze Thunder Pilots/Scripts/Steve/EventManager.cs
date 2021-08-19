@@ -43,6 +43,10 @@ namespace Game.Steveo
 
         }
 
+        /// <summary>
+        /// Shows the scroll pop up UI and adjusts the text.
+        /// </summary>
+        /// <param name="_text">String for the scroll text box</param>
         private void ShowScroll(string _text)
         {
             if(scrollPrefab != null)
@@ -53,6 +57,9 @@ namespace Game.Steveo
                 player.enabled = false;
         }
 
+        /// <summary>
+        /// On the continue button on the scroll popup
+        /// </summary>
         public void Play()
         {
             player.enabled = true;
