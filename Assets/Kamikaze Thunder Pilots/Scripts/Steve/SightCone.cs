@@ -14,7 +14,7 @@ namespace Game.Steveo
         private Color originalColor;
         private bool isInSight = false;
         private float timer;
-        public bool isCaught = false;
+        private bool isCaught = false;
         
         public delegate void GotCaught();
         public static event GotCaught Caught;
@@ -41,17 +41,8 @@ namespace Game.Steveo
                     {
                         isCaught = true;
                         Caught();
-                        Debug.Log("Caught");
-
                     }
-                    //todo maybe an event?? then subscribe with the game manager
-                    // Play caught sfx
-                    // Gameover message
-                    // Reload level
-                    
-                    
                 }
-                
             }
         }
 
@@ -60,10 +51,9 @@ namespace Game.Steveo
     
         private void OnTriggerEnter2D(Collider2D _collider)
         {
-            Debug.Log("trigger");
+            // Handles the player entering the sight cone
             if(_collider.gameObject.tag == "Player")
             {
-                
                 spriteRenderer.material.color = Color.yellow;
                 isInSight = true;
                 timer = Time.time;
@@ -73,11 +63,10 @@ namespace Game.Steveo
     
         private void OnTriggerExit2D(Collider2D _collider)
         {
-            Debug.Log("triggerExit");
+            // Handles the player exiting the sight cone
             if(_collider.gameObject.tag == "Player")
             {
                 spriteRenderer.material.color = originalColor;
-                //spriteRenderer.color = originalColor;
                 isInSight = false;
             }
         }

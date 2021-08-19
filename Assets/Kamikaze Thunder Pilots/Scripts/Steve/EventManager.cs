@@ -32,6 +32,7 @@ namespace Game.Steveo
         {
             SightCone.Caught += Caught;
 
+            // Only shows the first time the level is played.
             if(!isRestart)
             {
                ShowScroll(startText);
