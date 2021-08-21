@@ -26215,7 +26215,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  canMoveHori: 1
   canMouseRotate: 0
   canBulletTime: 0
   canOpenDoor: 0
@@ -31795,7 +31794,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1437403457
 Transform:
   m_ObjectHideFlags: 0

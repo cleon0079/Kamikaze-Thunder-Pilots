@@ -22,6 +22,7 @@ namespace Game.Cleon
 			{
 				switch(type)
 				{
+					// Pick up the bullet time item and shows the UI
 					case Type.BulletTime:
 						gameManager.canvasOnObject.transform.position = transform.position + new Vector3(0, .8f, 0);
 						gameManager.canvasOnObjectText.text = "Press 'F' to pick up";
@@ -38,6 +39,7 @@ namespace Game.Cleon
 							Destroy(gameObject);
 						}
 						break;
+					// Pick up the key item and shows the UI
 					case Type.Key:
 						gameManager.canvasOnObject.transform.position = transform.position + new Vector3(0, .8f, 0);
 						gameManager.canvasOnObjectText.text = "Press 'F' to pick up";
@@ -55,6 +57,7 @@ namespace Game.Cleon
 						}
 						break;
 					case Type.Door:
+						// If we got the key then we can open the door, if we dont then shows the UI
 						gameManager.canvasOnObject.transform.position = transform.position + new Vector3(0, .8f, 0);
 						gameManager.canvasOnObject.SetActive(true);
 						if(gameManager.canOpenDoor)
@@ -77,6 +80,9 @@ namespace Game.Cleon
 			}
 		}
 
+		/// <summary>
+		/// Type of the item
+		/// </summary>
 		public enum Type
 		{
 			BulletTime,
