@@ -15592,17 +15592,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fire Torch (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5004589048937247238, guid: 074b3d0278cd833448b87f013fbf7f21, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5004589048937247239, guid: 074b3d0278cd833448b87f013fbf7f21, type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5004589048937247239, guid: 074b3d0278cd833448b87f013fbf7f21, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.63
+      value: 8.647
       objectReference: {fileID: 0}
     - target: {fileID: 5004589048937247239, guid: 074b3d0278cd833448b87f013fbf7f21, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.47
+      value: 4.7
       objectReference: {fileID: 0}
     - target: {fileID: 5004589048937247239, guid: 074b3d0278cd833448b87f013fbf7f21, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22944,7 +22948,7 @@ Transform:
   m_GameObject: {fileID: 1424338747}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 27.387543, y: -4.4363422, z: 18.63889}
-  m_LocalScale: {x: 10, y: 1, z: 1}
+  m_LocalScale: {x: 9.999999, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 506510621}
   m_RootOrder: 0
