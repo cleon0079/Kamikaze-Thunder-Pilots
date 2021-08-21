@@ -35,6 +35,9 @@ namespace Game.Cleon
         public string keyName;
         [TextArea(3, 3)] public string keyDescription;
 
+        [Header("Door")] 
+        public Sprite openDoorSprite;
+
         [Header("Canvas On Object SetUp")] 
         public GameObject canvasOnObject;
         public Text canvasOnObjectText;

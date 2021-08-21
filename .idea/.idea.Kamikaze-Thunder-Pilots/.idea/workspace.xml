@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c20f6b8-3c10-403d-974e-4438d102fc28" name="Default Changelist" comment="" />
+    <list default="true" id="9c20f6b8-3c10-403d-974e-4438d102fc28" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scenes/Test - Steve.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scenes/Test - Steve.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/Item.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +16,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Steve/SightCone.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Steve/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -24,6 +27,8 @@
       <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Steve/DisolveEffect.cs" />
       <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Steve/SightCone.cs" />
       <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CameraFollow.cs" />
+      <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/Item.cs" />
+      <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/GameManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vvPugvg5d14GN1CntJaWwAPBtE" />
@@ -77,6 +82,7 @@
       <workItem from="1629169708856" duration="6811000" />
       <workItem from="1629194376832" duration="1307000" />
       <workItem from="1629336508912" duration="10070000" />
+      <workItem from="1629546244954" duration="549000" />
     </task>
     <servers />
   </component>

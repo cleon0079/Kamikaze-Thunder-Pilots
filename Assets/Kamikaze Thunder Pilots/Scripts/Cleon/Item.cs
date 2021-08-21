@@ -23,7 +23,7 @@ namespace Game.Cleon
 				switch(type)
 				{
 					case Type.BulletTime:
-						gameManager.canvasOnObject.transform.position = transform.position + new Vector3(0, .5f, 0);
+						gameManager.canvasOnObject.transform.position = transform.position + new Vector3(0, .8f, 0);
 						gameManager.canvasOnObjectText.text = "Press 'F' to pick up";
 						gameManager.canvasOnObject.SetActive(true);
 						if(Input.GetKeyDown(KeyCode.F))
@@ -39,7 +39,7 @@ namespace Game.Cleon
 						}
 						break;
 					case Type.Key:
-						gameManager.canvasOnObject.transform.position = transform.position + new Vector3(0, .5f, 0);
+						gameManager.canvasOnObject.transform.position = transform.position + new Vector3(0, .8f, 0);
 						gameManager.canvasOnObjectText.text = "Press 'F' to pick up";
 						gameManager.canvasOnObject.SetActive(true);
 						if(Input.GetKeyDown(KeyCode.F))
@@ -55,14 +55,15 @@ namespace Game.Cleon
 						}
 						break;
 					case Type.Door:
-						gameManager.canvasOnObject.transform.position = transform.position + new Vector3(0, .5f, 0);
+						gameManager.canvasOnObject.transform.position = transform.position + new Vector3(0, .8f, 0);
 						gameManager.canvasOnObject.SetActive(true);
 						if(gameManager.canOpenDoor)
 						{
 							gameManager.canvasOnObjectText.text = "Press 'F' to open door";
 							if(Input.GetKeyDown(KeyCode.F))
 							{
-								// ToDo Play open door anim and open the door
+								SpriteRenderer doorRenderer = GetComponent<SpriteRenderer>();
+								doorRenderer.sprite = gameManager.openDoorSprite;
 							}
 						}
 						else
