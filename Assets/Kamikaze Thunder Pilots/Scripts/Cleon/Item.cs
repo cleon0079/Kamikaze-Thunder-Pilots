@@ -22,8 +22,9 @@ namespace Game.Cleon
 			{
 				switch(type)
 				{
+					// Pick up the bullet time item and shows the UI
 					case Type.BulletTime:
-						gameManager.canvasOnObject.transform.position = transform.position + new Vector3(0, .5f, 0);
+						gameManager.canvasOnObject.transform.position = transform.position + new Vector3(0, .8f, 0);
 						gameManager.canvasOnObjectText.text = "Press 'F' to pick up";
 						gameManager.canvasOnObject.SetActive(true);
 						if(Input.GetKeyDown(KeyCode.F))
@@ -38,8 +39,9 @@ namespace Game.Cleon
 							Destroy(gameObject);
 						}
 						break;
+					// Pick up the key item and shows the UI
 					case Type.Key:
-						gameManager.canvasOnObject.transform.position = transform.position + new Vector3(0, .5f, 0);
+						gameManager.canvasOnObject.transform.position = transform.position + new Vector3(0, .8f, 0);
 						gameManager.canvasOnObjectText.text = "Press 'F' to pick up";
 						gameManager.canvasOnObject.SetActive(true);
 						if(Input.GetKeyDown(KeyCode.F))
@@ -55,14 +57,16 @@ namespace Game.Cleon
 						}
 						break;
 					case Type.Door:
-						gameManager.canvasOnObject.transform.position = transform.position + new Vector3(0, .5f, 0);
+						// If we got the key then we can open the door, if we dont then shows the UI
+						gameManager.canvasOnObject.transform.position = transform.position + new Vector3(0, .8f, 0);
 						gameManager.canvasOnObject.SetActive(true);
 						if(gameManager.canOpenDoor)
 						{
 							gameManager.canvasOnObjectText.text = "Press 'F' to open door";
 							if(Input.GetKeyDown(KeyCode.F))
 							{
-								// ToDo Play open door anim and open the door
+								SpriteRenderer doorRenderer = GetComponent<SpriteRenderer>();
+								doorRenderer.sprite = gameManager.openDoorSprite;
 							}
 						}
 						else
@@ -76,6 +80,9 @@ namespace Game.Cleon
 			}
 		}
 
+		/// <summary>
+		/// Type of the item
+		/// </summary>
 		public enum Type
 		{
 			BulletTime,

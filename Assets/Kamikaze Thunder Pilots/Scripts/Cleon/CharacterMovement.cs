@@ -9,6 +9,7 @@ namespace Game.Cleon
         private GameManager gameManager;
         private Rigidbody2D rb;
 
+        // Set up the rigidbody for the player
         private void Start()
         {
             gameManager = FindObjectOfType<GameManager>();
@@ -24,12 +25,16 @@ namespace Game.Cleon
         {
             Move();
             BulletTime();
+            // We are not using the mouse rotate anymore
             if(gameManager.canMouseRotate)
             {
                 Look();
             }
         }
 
+        /// <summary>
+        /// Allow players to slow down the time just like the protagonist of The Matrix
+        /// </summary>
         private void BulletTime()
         {
             if(gameManager.canBulletTime)
@@ -45,15 +50,21 @@ namespace Game.Cleon
             }
         }
         
+        /// <summary>
+        /// Move the player
+        /// </summary>
         private void Move()
         {
-            if(gameManager.canMoveHori)
+            if(!gameManager.canvasItemDisplay.activeSelf)
             {
                 transform.Translate(Vector3.right * (Input.GetAxisRaw("Horizontal") * Time.unscaledDeltaTime * gameManager.moveSpeed));
+                transform.Translate(Vector3.up * (Input.GetAxisRaw("Vertical") * Time.unscaledDeltaTime * gameManager.moveSpeed));
             }
-            transform.Translate(Vector3.up * (Input.GetAxisRaw("Vertical") * Time.unscaledDeltaTime * gameManager.moveSpeed));
         }
 
+        /// <summary>
+        /// Let the player turn in the direction of the mouse
+        /// </summary>
         private void Look()
         {
             Vector3 mousePoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -67,6 +78,9 @@ namespace Game.Cleon
             transform.eulerAngles = new Vector3(0, 0, angle);
         }
         
+        /// <summary>
+        /// Calculate the cooldown of bullet time
+        /// </summary>
         private IEnumerator BulletTimeCoolDown()
         {
             yield return new WaitForSecondsRealtime(gameManager.bulletTimeLength);
