@@ -59,6 +59,10 @@ namespace Game.Cleon
         public GameObject bulletTimeCanvasImage;
         public Image bulletTimeCDImage;
 
+        [Header("End Game Canvas")] 
+        public GameObject endGamePanel;
+        
+        
         private void Update()
         {
             if(isBulletTime)
@@ -84,6 +88,11 @@ namespace Game.Cleon
             canvasItemDisplay.SetActive(false);
             canvasOnObject.SetActive(false);
             Time.timeScale = 1;
+        }
+
+        public void EndGame()
+        {
+            endGamePanel.SetActive(true);
         }
     }
 }
