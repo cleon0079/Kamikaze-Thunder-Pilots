@@ -67,6 +67,7 @@ namespace Game.Cleon
 							{
 								SpriteRenderer doorRenderer = GetComponent<SpriteRenderer>();
 								doorRenderer.sprite = gameManager.openDoorSprite;
+								Invoke("End", 1f);
 							}
 						}
 						else
@@ -78,6 +79,11 @@ namespace Game.Cleon
 						break;
 				}
 			}
+		}
+
+		private void End()
+		{
+			gameManager.EndGame();
 		}
 
 		/// <summary>
