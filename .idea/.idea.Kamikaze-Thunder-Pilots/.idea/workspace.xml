@@ -17,10 +17,14 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CharacterController.cs" />
       <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CharacterRotate.cs" />
-      <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CharacterMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Steve/Menu.cs" />
-      <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Steve/SightCone.cs" />
       <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Steve/WatcherRotation.cs" />
+      <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Steve/DisolveEffect.cs" />
+      <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Steve/SightCone.cs" />
+      <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/Item.cs" />
+      <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CameraFollow.cs" />
+      <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/CharacterMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Kamikaze Thunder Pilots/Scripts/Cleon/GameManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vvPugvg5d14GN1CntJaWwAPBtE" />
@@ -69,14 +73,34 @@
       <workItem from="1627439864266" duration="3348000" />
       <workItem from="1627695779490" duration="4676000" />
       <workItem from="1627785856343" duration="5575000" />
+      <workItem from="1628822275624" duration="1518000" />
+      <workItem from="1628828915924" duration="2973000" />
+      <workItem from="1629169708856" duration="6811000" />
+      <workItem from="1629194376832" duration="1307000" />
+      <workItem from="1629336508912" duration="10070000" />
+      <workItem from="1629546244954" duration="2221000" />
+      <workItem from="1629589341852" duration="2726000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

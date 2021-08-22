@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Kamikaze Thunder Pilots/Scenes/Test - Steve.unity
     guid: 08848b8a6db9df34baa42e839ec51bef
-  - enabled: 1
+  - enabled: 0
     path: Assets/Kamikaze Thunder Pilots/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
