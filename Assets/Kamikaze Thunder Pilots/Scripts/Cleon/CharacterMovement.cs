@@ -29,6 +29,7 @@ namespace Game.Cleon
         // Update is called once per frame
         private void Update()
         {
+            AnimationInput();
             Move();
             BulletTime();
             // We are not using the mouse rotate anymore
@@ -66,10 +67,14 @@ namespace Game.Cleon
                 transform.Translate(Vector3.right * (Input.GetAxisRaw("Horizontal") * Time.unscaledDeltaTime * gameManager.moveSpeed));
                 anim.SetBool("isMoving", true);
                 transform.Translate(Vector3.up * (Input.GetAxisRaw("Vertical") * Time.unscaledDeltaTime * gameManager.moveSpeed));
-                anim.SetBool("isMoving", true);
             }
+        }
 
-            
+        /// <summary>
+        /// Setting the animator
+        /// </summary>
+        private void AnimationInput()
+        {
             // Setting the animator - Steveo
             if(Input.GetAxisRaw("Horizontal") > 0.1f)
                 xPos = 1;
@@ -80,6 +85,7 @@ namespace Game.Cleon
                 xPos = 0;
                 anim.SetBool("isMoving", false);
             }
+            
             if(Input.GetAxisRaw("Vertical") > 0.1f)
                 yPos = 1;
             else if(Input.GetAxisRaw("Vertical") < -0.1f)
@@ -91,7 +97,6 @@ namespace Game.Cleon
             }
             anim.SetFloat("xPos",xPos);
             anim.SetFloat("yPos",yPos);
-            
         }
 
         /// <summary>
