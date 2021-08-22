@@ -8,10 +8,16 @@ namespace Game.Cleon
     {
         private GameManager gameManager;
         private Rigidbody2D rb;
+        private Animator anim;
+        
+        //For use with animator
+        private float xPos;
+        private float yPos;
 
         // Set up the rigidbody for the player
         private void Start()
         {
+            anim = GetComponentInChildren<Animator>();
             gameManager = FindObjectOfType<GameManager>();
             rb = GetComponent<Rigidbody2D>();
             rb.gravityScale = 0;
@@ -58,8 +64,34 @@ namespace Game.Cleon
             if(!gameManager.canvasItemDisplay.activeSelf)
             {
                 transform.Translate(Vector3.right * (Input.GetAxisRaw("Horizontal") * Time.unscaledDeltaTime * gameManager.moveSpeed));
+                anim.SetBool("isMoving", true);
                 transform.Translate(Vector3.up * (Input.GetAxisRaw("Vertical") * Time.unscaledDeltaTime * gameManager.moveSpeed));
+                anim.SetBool("isMoving", true);
             }
+
+            
+            // Setting the animator - Steveo
+            if(Input.GetAxisRaw("Horizontal") > 0.1f)
+                xPos = 1;
+            else if(Input.GetAxisRaw("Horizontal") < -0.1f)
+                xPos = -1;
+            else if(Input.GetAxisRaw("Horizontal") == 0)
+            {
+                xPos = 0;
+                anim.SetBool("isMoving", false);
+            }
+            if(Input.GetAxisRaw("Vertical") > 0.1f)
+                yPos = 1;
+            else if(Input.GetAxisRaw("Vertical") < -0.1f)
+                yPos = -1;
+            else if(Input.GetAxisRaw("Vertical") == 0)
+            {
+                yPos = 0;
+                anim.SetBool("isMoving", false);
+            }
+            anim.SetFloat("xPos",xPos);
+            anim.SetFloat("yPos",yPos);
+            
         }
 
         /// <summary>

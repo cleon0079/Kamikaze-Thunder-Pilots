@@ -62,8 +62,9 @@ namespace Game.Cleon
         [Header("End Game Canvas")] 
         public GameObject endGamePanel;
 
-        [Header("Pick Up SFX")] public AudioSource pickUpSFX;
-        
+        [Header("Pick Up SFX")] 
+        public AudioSource pickUpSFX;
+
         
         private void Update()
         {
