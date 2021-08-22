@@ -35,6 +35,7 @@ namespace Game.Cleon
 							gameManager.canvasItemImage.sprite = gameManager.bulletTimeIcon;
 							gameManager.canvasItemName.text = gameManager.bulletTimeName;
 							gameManager.canvasItemDescription.text = gameManager.bulletTimeDescription;
+							gameManager.PickUpSFX();
 							Time.timeScale = 0;
 							Destroy(gameObject);
 						}
@@ -52,6 +53,7 @@ namespace Game.Cleon
 							gameManager.canvasItemImage.sprite = gameManager.keyIcon;
 							gameManager.canvasItemName.text = gameManager.keyName;
 							gameManager.canvasItemDescription.text = gameManager.keyDescription;
+							gameManager.PickUpSFX();
 							Time.timeScale = 0;
 							Destroy(gameObject);
 						}
@@ -67,7 +69,8 @@ namespace Game.Cleon
 							{
 								SpriteRenderer doorRenderer = GetComponent<SpriteRenderer>();
 								doorRenderer.sprite = gameManager.openDoorSprite;
-								Invoke("End", 1f);
+								gameManager.PickUpSFX();
+								Invoke("End", 0.5f);
 							}
 						}
 						else
@@ -81,6 +84,9 @@ namespace Game.Cleon
 			}
 		}
 
+		/// <summary>
+		/// Calls the function from the Game manager.
+		/// </summary>
 		private void End()
 		{
 			gameManager.EndGame();

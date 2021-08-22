@@ -61,6 +61,8 @@ namespace Game.Cleon
 
         [Header("End Game Canvas")] 
         public GameObject endGamePanel;
+
+        [Header("Pick Up SFX")] public AudioSource pickUpSFX;
         
         
         private void Update()
@@ -90,9 +92,20 @@ namespace Game.Cleon
             Time.timeScale = 1;
         }
 
+        /// <summary>
+        /// Set end game panel active. Called from Item script.
+        /// </summary>
         public void EndGame()
         {
             endGamePanel.SetActive(true);
+        }
+        
+        /// <summary>
+        /// Plays the Pick Up sound effect
+        /// </summary>
+        public void PickUpSFX()
+        {
+            pickUpSFX.Play();
         }
     }
 }
